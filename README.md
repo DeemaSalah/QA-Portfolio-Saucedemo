@@ -170,8 +170,8 @@ Screenshots supporting reported defects and demonstrating the observed applicati
 | Bug ID | Summary | Severity | Priority | Status |
 |---|---|---|---|---|
 | BUG-001 | Order can be completed with an empty cart | High | High | Open |
-| BUG-003 | Zip Code field accepts malformed input without validation | High (Critical if XSS executes) | High | Open |
-| BUG-004 | Checkout validation reports only the first missing required field | Low | Low | New |
+| BUG-002 | Zip Code field accepts malformed input without validation | High (Critical if XSS executes) | High | Open |
+| BUG-003 | Checkout validation reports only the first missing required field | Low | Low | New |
 
 > Severity and priority were assigned based on the observed impact and urgency from the perspective of the tested application.
 
@@ -223,8 +223,8 @@ Failed test cases are linked to their corresponding defects to provide traceabil
 |---|---|---|
 | TC_019 | Cart becomes empty after removing the only item | BUG-001 |
 | TC_027 | Cart is empty from the start | BUG-001 |
-| TC_024 | Only the first missing required field is reported | BUG-004 |
-| TC_025 | Zip Code field accepts invalid/malformed input | BUG-003 |
+| TC_024 | Only the first missing required field is reported | BUG-003 |
+| TC_025 | Zip Code field accepts invalid/malformed input | BUG-002 |
 
 ---
 
