@@ -130,7 +130,7 @@ Different SauceDemo test accounts were used for different testing purposes.
 | `error_user` | Error handling |
 | `visual_user` | Visual and UI behavior |
 
-> **Note:** Test account credentials are intentionally not included in this repository.
+> **Note:** Test account credentials are publicly provided by SauceDemo for testing purposes.
 
 ---
 
@@ -161,7 +161,7 @@ Documented defects containing:
 
 ### 📸 Evidence
 
-Screenshots supporting reported defects and demonstrating the observed application behavior.
+Screenshots and screencasts supporting reported defects and demonstrating the observed application behavior.
 
 ---
 
@@ -189,8 +189,8 @@ QA-Portfolio-Saucedemo/
 │   │   └── Standard_User_Test_Cases.xlsx
 │   │
 │   └── Bug-Reports/
-│       ├── Standard_User_Bug_Report.xlsx
-│       └── Attachments/
+│       ├── Standard_User_Bug_Reports
+│       └── Attachments
 │
 ├── Locked-Out-User/
 │   ├── Test-Cases/
